@@ -2,9 +2,9 @@ package com.RashidGafurov_INC_LOL;
 
 //Assignment 1
 public class Book {
-    String name;
-    Author author;
-    int year;
+    private String name;
+    private Author author;
+    private int year;
 
     //Assignment 3
     public Book(String name, Author author, int year) {
