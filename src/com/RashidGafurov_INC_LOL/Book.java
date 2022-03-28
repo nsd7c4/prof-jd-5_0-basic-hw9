@@ -25,4 +25,10 @@ public class Book {
     public int getYear() {
         return this.year;
     }
+
+    //Assignment 5
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 }
