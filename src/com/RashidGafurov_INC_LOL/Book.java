@@ -3,5 +3,12 @@ package com.RashidGafurov_INC_LOL;
 public class Book {
     String name;
     Author author;
-    String year;
+    int year;
+
+    //Assignment 3
+    public Book(String name, Author author, int year) {
+       this.name = name;
+       this.author = author;
+       this.year = year;
+    }
 }
