@@ -25,7 +25,7 @@ public class Author {
     //    Assignment 1 Homework 10
     @Override
     public String toString() {
-        return "\'" + name + " " + lastName + "\'";
+        return name + " " + lastName;
     }
 
     @Override

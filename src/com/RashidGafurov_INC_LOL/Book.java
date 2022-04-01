@@ -43,6 +43,18 @@ public class Book {
                 '}';
     }
 
+    public String toString(boolean betterFormatting) {
+        return "\"" + author.toString() + ": " + name + ": " + year + "\"";
+    }
+
+    public String toString(int betterFormatting) {
+        return "The " + name + " by " + author + " was published in " + year +"\"";
+    }
+
+    public String toString(float f) {
+        return "The " + name + " by Author: " + author;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -54,5 +66,9 @@ public class Book {
     @Override
     public int hashCode() {
         return Objects.hash(name, author, year);
+    }
+
+    public boolean notNull(){
+        return this != null;
     }
 }
